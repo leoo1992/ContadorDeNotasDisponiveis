@@ -1,7 +1,9 @@
 body {
     overflow: hidden;
     padding: 25px;
-    background-color: aliceblue;
+    background: linear-gradient(10deg, #7fa2f3 0%, #c6d4f1d0 100%);
+    color: purple;
+
   }
   .calculadora-row {
     height: 100vh;
@@ -9,6 +11,34 @@ body {
   .calculadora-container,
   .form-control,
   .btn {
-    border: 1px solid black;
+    border: 2px solid purple;
+    box-shadow: 3px 3px purple);
   }
+  .calculadora-container{
+    background: linear-gradient(90deg, #67ee6d7a 0%, hsla(113, 100%, 60%, 0.322) 100%);
+    box-shadow: 3px 3px purple;
+  } 
+  .form-control{
+    border-radius: 25px;
+    text-align: center;
+  }
+  .btn{
+    border-radius: 25px;
+  }
+  .btn-primary{
+    background-color: purple;
+  }
+  .btn-danger{
+    border: 2px solid red;
+  }
+  .btn-primary:hover{
+  background-color: rgb(194, 1, 194);
+    border: 2px solid purple;
+  }
+  .btn-close{
+    background-color: red;
+  }
+
+
+  
   
